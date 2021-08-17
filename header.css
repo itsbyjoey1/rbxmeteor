@@ -1,0 +1,84 @@
+/* .desktop1 {
+    margin: 0 20px 0 0;
+    list-style: none;
+    padding: 0 5px;
+    background-color: rgba(95,95,95,.6);
+    border-radius: 7px;
+    margin-left: 1000px;
+    line-height: 2;
+}
+
+.desktop1__item {
+    display: inline-block;
+}
+
+.desktop1__item a {
+    color: #ffca5b;
+    cursor: pointer;
+    display: inline;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 7px;
+    text-decoration: rgba(95,95,95,.6);
+    text-decoration-style: solid;
+    text-align: left;
+} */
+
+@font-face{
+    font-family:MainFont;
+    src:url(/static/css/Plumpfull.ttf)
+}
+@media screen and (max-width:1250px){
+.desktop1{
+    display:none!important
+}
+    }
+html,body {
+    font-family:MainFont,sans-serif;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    padding:0;
+    margin:0;
+    z-index:-2;
+    overflow-x:hidden;
+    background-color:#fff;
+    height:100%
+}
+.small-hover:hover {
+    transform:scale(1.15)!important
+}
+header {
+    background-color:#7feffd;
+}
+header ul {
+    margin:0 20px 0 0;
+    background-color:rgba(95,95,95,.6);
+    text-decoration:none;
+    border-radius:7px;
+    padding:0 5px
+}
+header li {
+    margin:5px;
+    padding:0;
+    text-decoration:none;
+    display:inline-block
+}
+header li a {
+    text-decoration:none;
+    color:#ffca5b;
+    font-size:20px
+}
+header li a:hover,header .active1 {
+    border-bottom:2px solid red
+}
+nav {
+    margin-left: 1037.9px;
+
+}
+.desktop1 {
+    margin: 0 20px 0 0;
+    list-style: none;
+    padding: 0 5px;
+    line-height: 2;
+}
